@@ -1,0 +1,19 @@
+body {background-color:yellow;}
+h1 {color: red; text-align:center;}
+.initcap {font-size:3em; font-style:italic; font-weight:bold;}
+.red { color: red; }
+h2 {text-align: right; color:blue; font-style:italic;}
+#BigH2 {
+  font-size: 3em;
+  }
+h3 {text-align: right; color: red;}
+a:link {color:blue;}
+a:visited {color: red}
+table {background-color:cyan; padding:12px; border-collapse: separate; border-spacing:12px;
+    animation-name: homework2; animation-duration: 7s; animation-fill-mode: forwards;}
+td:nth-child(odd) {text-align: center; font-weight: bold;}
+@keyframes homework2
+{
+from {background: cyan;}
+to {background: green; color: white;}
+}
